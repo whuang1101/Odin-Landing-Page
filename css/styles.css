@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin:0;
     padding: 0;
     max-width: 3000px;
@@ -54,6 +55,7 @@ a, .logo{
     flex-direction: column;
     gap: 0px;
     flex: 1;
+    gap:10px;
 }
 .titletext p1{
     color: #e5e7eb;
@@ -62,7 +64,7 @@ a, .logo{
     filter: brightness(0.8); 
     font-weight: 100;
 }
-img{
+.image img{
     width:500px;
     height: 250px;
     flex: 1;
@@ -73,4 +75,34 @@ img{
     background-color: #3882F6;
     border: none;
     border-radius: 10%;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 120px 80px 120px;
+}
+.all-pairs{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: space-between;
+}
+.pair{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pair img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.information{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin-bottom: 30px;
 }
